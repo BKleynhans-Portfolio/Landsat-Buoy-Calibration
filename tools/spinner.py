@@ -45,11 +45,12 @@ class Spinner():
     def start_spinner(self):
         
         self.spinner_thread.start()
-        
+
+
     # Stop the spinner
     def stop_spinner(self):
         
         self.active = False
-        sys.stdout.write('\b >>>  done')
+        sys.stdout.write('\n\b >>>  done')
         sys.stdout.flush()
         

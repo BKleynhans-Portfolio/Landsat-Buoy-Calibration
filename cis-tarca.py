@@ -11,7 +11,7 @@
 # Authors             : Benjamin Kleynhans
 #
 # Last Modified By    : Benjamin Kleynhans
-# Last Modified Date  : August 1, 2019
+# Last Modified Date  : May 26, 2020
 # Filename            : cis-tarca.py
 #
 ###
@@ -67,7 +67,8 @@ def check_required_directories():
         'logs/status/batch',
         'logs/output',
         'logs/output/single',
-        'logs/output/batch'
+        'logs/output/batch',
+        'downloaded_data'
     }
 
     # Loop through the list of required directories and create any that don't exist
